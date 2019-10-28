@@ -1,30 +1,24 @@
 {
-  "name": "razzle-plugin-compression",
+  "name": "razzle-plugin-wasm",
   "version": "1.0.0",
-  "description": "Razzle plugin to Compress bundle",
+  "description": "Razzle plugin to load wasm using webpack",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nimacsoft/razzle-plugin-compression.git"
+    "url": "git+https://github.com/fivethreeo/razzle-plugin-wasm.git"
 	},
   "keywords": [
     "razzle",
     "plugin",
-		"compression",
-		"gzip",
-		"brotli"
+		"wasm"
   ],
-  "author": "Nima Arefi <nimaarefi@outlook.com> (https://twitter.com/nima_arf)",
+  "author": "Øyvind Saltvik <oyvind.saltvik@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nimacsoft/razzle-plugin-compression/issues"
+    "url": "https://github.com/fivethreeo/razzle-plugin-wasm/issues"
 	},
-	"dependencies": {
-		"compression-webpack-plugin": "^3.0.0",
-		"brotli-webpack-plugin": "^1.1.0"
-	},
-  "homepage": "https://github.com/nimacsoft/razzle-plugin-compression#readme"
+  "homepage": "https://github.com/fivethreeo/razzle-plugin-wasm#readme"
 }
