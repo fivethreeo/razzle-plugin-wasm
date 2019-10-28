@@ -1,6 +1,6 @@
 {
   "name": "razzle-plugin-wasm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Razzle plugin to load wasm using webpack",
   "main": "index.js",
   "scripts": {
