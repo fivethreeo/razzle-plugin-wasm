@@ -1,6 +1,6 @@
 {
   "name": "razzle-plugin-wasm",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "Razzle plugin to load wasm using webpack",
   "main": "index.js",
   "scripts": {
@@ -20,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/fivethreeo/razzle-plugin-wasm/issues"
 	},
-  "homepage": "https://github.com/fivethreeo/razzle-plugin-wasm#readme",
-  "dependencies": {
-    "exports-loader": "^0.7.0" 
-  }
+  "homepage": "https://github.com/fivethreeo/razzle-plugin-wasm#readme"
 }

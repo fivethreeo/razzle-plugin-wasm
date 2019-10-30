@@ -51,3 +51,14 @@ mod.onRuntimeInitialized = async () => {
  console.log('Emscripten runtime loaded');
 };
 ```
+
+Usage with emscripten modules, built with SINGLE_FILE
+
+```javascript
+// modulename.mjs renamed from module.js
+import mod from './modulename.mjs'; // important, use .mjs 
+
+mod.onRuntimeInitialized = async () => {
+ console.log('Emscripten runtime loaded');
+};
+```
