@@ -3,10 +3,6 @@
 function modify(defaultConfig, { target, dev }, webpack) {
   const config = defaultConfig;
   
-  config.browser = {
-    "fs": false
-  }
-
   config.module.rules = config.module.rules.reduce((rules, rule) => {
 
     if (!rule.test && rule.loader && /file-loader/.test(rule.loader)) {
